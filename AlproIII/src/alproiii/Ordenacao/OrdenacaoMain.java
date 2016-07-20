@@ -6,6 +6,8 @@
 package alproiii.Ordenacao;
 
 import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -50,7 +52,7 @@ public class OrdenacaoMain {
 
         System.out.println("\n\n");
         metodo("Dia a dia na grande cidade!");
-    }
+   }
     
     public static void bubble_sort(int [] v) {
         for (int i=0; i<v.length; i++) {
